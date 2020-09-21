@@ -4,8 +4,12 @@ class Anagram
   attr_accessor :word, :array 
   
   def match
-    anagrm = 
-    
+  anagram = sentence.split(" ")
+  anagram_array = []
+  anagram.collect do |letter|
+    anagram_array.push(word.reverse)
+   end
+  result = anagram_array.join(" ") 
   end
   
 end
