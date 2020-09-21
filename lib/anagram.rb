@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
   
-  attr_accessor :word, :array 
+  attr_accessor :word
   
   def match(array)
   array.select do |word|
