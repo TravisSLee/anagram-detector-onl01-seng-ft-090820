@@ -7,5 +7,5 @@ class Anagram
   array.each do |word|
     word.split("").sort == @word.split("").sort
   end
-end
+  end
 end
