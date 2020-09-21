@@ -3,7 +3,7 @@ class Anagram
   
   attr_accessor :word, :array 
   
-  def match
+  def match(array)
   anagram = sentence.split(" ")
   anagram_array = []
   anagram.collect do |letter|
