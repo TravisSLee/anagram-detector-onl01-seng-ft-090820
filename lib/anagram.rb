@@ -4,7 +4,7 @@ class Anagram
   attr_accessor :word, :array 
   
   def match(array)
-  array.each do |word|
+  array.select do |word|
     word.split("").sort == @word.split("").sort
   end
   end
